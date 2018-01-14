@@ -16,7 +16,7 @@ public class MainActivity extends XWalkActivity {
         setContentView(R.layout.activity_main);
 
         xWalkWebView=(XWalkView)findViewById(R.id.xwalkWebView);
-        xWalkWebView.load("https://192.168.8.114:8080/cam", null);
+        xWalkWebView.load("https://meet.jit.si/test", null);
         // turn on debugging
         XWalkPreferences.setValue(XWalkPreferences.REMOTE_DEBUGGING, true);
     }
